@@ -24,7 +24,7 @@ async function getInstagramData() {
             videoUrl.style.display = 'block';
             downloadButton.style.display = 'block';
         } else {
-            alert('Invalid Instagram URL or no data found.');
+            alert('Please Try Again');
         }
     } catch (error) {
         console.error('Error fetching Instagram data:', error);
