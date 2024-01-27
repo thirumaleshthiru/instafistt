@@ -24,7 +24,7 @@ async function getInstagramData() {
             videoUrl.style.display = 'block';
             downloadButton.style.display = 'block';
         } else {
-            alert('Please Try Again');
+            alert('Please Try Again (Too many Requests at a same Time)');
         }
     } catch (error) {
         console.error('Error fetching Instagram data:', error);

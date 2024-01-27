@@ -50,7 +50,7 @@ async function getInstagramData() {
                 resultContainer.appendChild(postDiv);
             });
         } else {
-            alert('Please Try Again');
+            alert('Please Try Again (Too many Requests at a same Time)');
         }
     } catch (error) {
         console.error('Error fetching Instagram data:', error);

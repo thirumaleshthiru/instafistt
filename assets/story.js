@@ -1,6 +1,6 @@
 async function getInstagramData() {
     const urlInput = document.getElementById('url').value.trim();
-    const resultContainer = document.querySelector('.result-story');
+    const resultContainer = document.querySelector('.result-posts');
     let loadingMessage = document.querySelector('.loading');
 
     try {
@@ -35,9 +35,8 @@ async function getInstagramData() {
                 const postDiv = document.createElement('div');
                 postDiv.classList.add('post');
 
-                const video = document.createElement('video');
-                video.src = data.download_link;
-                video.controls = true; // Add controls to the video element
+                const h3 = document.createElement('h3');
+                h3.textContent = `Story ${jsonData.indexOf(data) + 1}`;
 
                 const downloadButton = document.createElement('button');
                 downloadButton.textContent = 'Download';
@@ -46,12 +45,12 @@ async function getInstagramData() {
                 };
 
                 // Append elements to the result container
-                postDiv.appendChild(video);
+                postDiv.appendChild(h3);
                 postDiv.appendChild(downloadButton);
                 resultContainer.appendChild(postDiv);
             });
         } else {
-            alert('Please Try Again');
+            alert('Please Try Again (Too many Requests at a same Time)');
         }
     } catch (error) {
         console.error('Error fetching Instagram data:', error);
