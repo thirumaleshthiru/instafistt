@@ -50,7 +50,7 @@ async function getInstagramData() {
                 resultContainer.appendChild(postDiv);
             });
         } else {
-            alert('Invalid Instagram URL or no data found.');
+            alert('Please Try Again');
         }
     } catch (error) {
         console.error('Error fetching Instagram data:', error);
