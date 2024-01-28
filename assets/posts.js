@@ -36,7 +36,7 @@ async function getInstagramData() {
                 postDiv.classList.add('post');
 
                 const h3 = document.createElement('h3');
-                h3.textContent = `Post ${jsonData.indexOf(data) + 1}`;
+                h3.textContent = `Post/Video ${jsonData.indexOf(data) + 1}`;
 
                 const downloadButton = document.createElement('button');
                 downloadButton.textContent = 'Download';

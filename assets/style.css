@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
 }
 
 body {
-  font-family: 'PT Serif', serif;
+  font-family: 'Quicksand', sans-serif;
   letter-spacing: 1px;
     line-height: 30px;
     margin-top: 90px;
@@ -173,18 +172,27 @@ details{
   justify-content: center;
   align-items: center;
   gap:30px;
-  border: 1px solid black;
+  border: 1px solid linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);;
   padding: 50px;
   margin: 30px;
+  background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
 
 }
 .input input{
-  width: 500px;
+  width: 700px;
   padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
 }
 #submit{
   width: 100px;
   padding: 10px;
+}
+
+.result{
+  background: white;
+  border: 1px solid white;
+ 
 }
 
 .result button{
@@ -271,7 +279,32 @@ footer #logo{
   color: white;
   cursor: pointer;
 }
+.privacy-info{
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.privacy-info h2{
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.privacy-info p{
+  margin-bottom: 5px;
+}
+h2{
+  font-size: 21px;
+}
+ 
+
 @media screen and (max-width:800px) {
+  .privacy-info{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+  }
   details{
     width: 100%;
   }
@@ -387,6 +420,9 @@ footer #logo{
    .what{
     margin: 3px;
    }
+   .info h2, .item h2{
+    font-size: 21px;
+  }
 
 }
 
