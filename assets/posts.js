@@ -13,7 +13,7 @@ async function getInstagramData() {
             loadingMessage = document.createElement('div');
             loadingMessage.classList.add('loading');
             loadingMessage.style.display = 'none';
-            loadingMessage.textContent = 'Loading...';
+            loadingMessage.textContent = 'Please wait it takes less than 1 minute';
             resultContainer.appendChild(loadingMessage);
         }
 

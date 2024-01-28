@@ -49,7 +49,6 @@ body {
 }
 
 #instavid{
-  border: 1px solid rgb(18, 152, 242);
   width: 300px;
   height: 500px;
 }
@@ -166,13 +165,13 @@ details{
   width: 300px;
 }
 
-.input, .result{
+.input{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap:30px;
-  border: 1px solid linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);;
+ border-radius: 10px;
   padding: 50px;
   margin: 30px;
   background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
@@ -189,15 +188,22 @@ details{
   padding: 10px;
 }
 
-.result{
-  background: white;
-  border: 1px solid white;
- 
+ .result{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  padding: 50px;
+  margin: 30px;
 }
 
 .result button{
   width: 100px;
-  padding: 10px;
+  padding: 15px;
+  background-color:#ffa500	;
+  border: 1px solid white;
+  color: white;
 }
 
 .what{
@@ -259,7 +265,8 @@ footer #logo{
   color: white;
 }
 .loading{
-  font-size: 20px;
+  font-size: 16px;
+  color: Green;
 }
 .result-story button{
   padding: 10px;
@@ -403,8 +410,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:30px;
-    border: 1px solid black;
+    gap:30px; 
     padding: 30px;
     margin:10px;
   
