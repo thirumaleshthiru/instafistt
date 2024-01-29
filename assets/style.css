@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   border-bottom: 1px solid  rgb(18, 152, 242);
   background-color: rgb(18, 152, 242);
-  padding: 15px 30px;
+  padding: 19px 35px;
   position: fixed;
   z-index: 3;
   width: 100%;
@@ -58,7 +58,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 90px;
+  padding: 70px;
   margin: 30px 0px;
 }
 
@@ -74,7 +74,8 @@ body {
 .image{
   width: 360px;
   height: 210px;
-  border: 1px solid #ffa500;
+  border: 1px solid #cdcdcd;
+  border-radius: 9px;
 }
 
 .content{
@@ -84,7 +85,7 @@ body {
 }
 
 #try{
-  background-color:#ffa500	;
+  background-color:#fd8003	;
   color: white;
   padding: 10px;
   width: 100px;
@@ -171,11 +172,10 @@ details{
   justify-content: center;
   align-items: center;
   gap:30px;
- border-radius: 10px;
-  padding: 50px;
+  border-radius: 10px;
   margin: 30px;
   background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
-
+  padding: 100px;
 }
 .input input{
   width: 700px;
@@ -201,7 +201,7 @@ details{
 .result button{
   width: 100px;
   padding: 15px;
-  background-color:#ffa500	;
+  background-color:#fd8003	;
   border: 1px solid white;
   color: white;
 }
@@ -232,7 +232,7 @@ details{
 
 footer{
   padding: 90px;
-  border: 1px solid black;
+  border-top: 1px solid #000000;
   margin: 10px;
 }
 
@@ -260,29 +260,28 @@ footer #logo{
 .result-posts button{
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid  #ffa500;
-  background-color:#ffa500;
+  border: 1px solid  #fd8003	;
+  background-color:#fd8003	;
   color: white;
 }
 .loading{
   font-size: 16px;
   color: Green;
+   
 }
 .result-story button{
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid  #ffa500;
-  background-color:#ffa500;
+  border: 1px solid  #fd8003	;
+  background-color:#fd8003	;
   color: white;
 }
-.input{
-  padding: 70px;
-}
+ 
 #submit{
   padding: 15px;
   border-radius: 18px;
-  border: 1px solid  #ffa500;
-  background-color:#ffa500;
+  border: 1px solid  #fd8003	;
+  background-color:#fd8003	;
   color: white;
   cursor: pointer;
 }

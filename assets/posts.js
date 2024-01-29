@@ -5,7 +5,7 @@ async function getInstagramData() {
 
     try {
         if (!urlInput) {
-            throw new Error('Required elements not found.');
+            throw new Error('Enter a Valid Instagram  URL');
         }
 
         // Create loading message if it doesn't exist
@@ -13,7 +13,7 @@ async function getInstagramData() {
             loadingMessage = document.createElement('div');
             loadingMessage.classList.add('loading');
             loadingMessage.style.display = 'none';
-            loadingMessage.textContent = 'Please wait it takes less than 1 minute';
+            loadingMessage.textContent = 'Loading...';
             resultContainer.appendChild(loadingMessage);
         }
 
@@ -50,10 +50,10 @@ async function getInstagramData() {
                 resultContainer.appendChild(postDiv);
             });
         } else {
-            alert('Please Try Again (Too many Requests at a same Time)');
+            alert('Please Try Again (Invalid URL/Instram Might Restricted/Server Problem)');
         }
     } catch (error) {
-        console.error('Error fetching Instagram data:', error);
+        console.error('Error fetching Instagram URL:', error);
         alert(error.message);
 
         // Hide loading message in case of an error

@@ -24,10 +24,10 @@ async function getInstagramData() {
             videoUrl.style.display = 'block';
             downloadButton.style.display = 'block';
         } else {
-            alert('Please Try Again (Too many Requests at a same Time)');
+            alert('Please Try Again (Invalid URL/Instram Might Restricted/Server Problem');
         }
     } catch (error) {
-        console.error('Error fetching Instagram data:', error);
+        console.error('Error fetching Instagram URL:', error);
         alert(error.message);
         // Hide loading message in case of an error
         loadingMessage.style.display = 'none';
