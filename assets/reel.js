@@ -12,7 +12,7 @@ async function getInstagramData() {
         // Display loading message
         loadingMessage.style.display = 'block';
 
-        const response = await fetch(`https://nice-gray-barnacle-yoke.cyclic.app/getInstagramData?url=${encodeURIComponent(urlInput)}`);
+        const response = await fetch(`https://instafist-ymd3.onrender.com/getInstagramData?url=${encodeURIComponent(urlInput)}`);
         const jsonData = await response.json();
 
         // Hide loading message
