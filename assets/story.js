@@ -65,7 +65,7 @@ async function getInstagramData() {
 
 document.getElementById('submit').onclick = function () {
     // Clear resultContainer when submitting a new URL
-    const resultContainer = document.querySelector('.result');
+    const resultContainer = document.querySelector('.result-posts');
     if (resultContainer) {
         resultContainer.innerHTML = '';
     }
