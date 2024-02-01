@@ -85,7 +85,7 @@ body {
 }
 
 #try{
-  background-color:#fd8003	;
+  background-color:rgb(18, 152, 242);
   color: white;
   padding: 10px;
   width: 100px;
@@ -120,7 +120,7 @@ details{
 }
 
 .heading h1{
-  color: rgb(18, 152, 242);
+  color: #fd8003	; 
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -131,12 +131,12 @@ details{
 }
 
 .item h2{
-  color:rgb(18, 152, 242);
+  color: #fd8003	; 
  
 }
 
 .info h2{
-  color: rgb(18, 152, 242);
+  color:  #fd8003	; 
   margin-bottom: 3px;
 }
 .info p, .item p{
@@ -147,7 +147,7 @@ details{
   margin-top: 10px;
   border: 1px solid rgb(255, 255, 255);
   padding: 10px;
-  background-color: rgb(18, 152, 242);
+  background-color:  #fd8003	; 
   color: white;
   width: 700px;
 }
@@ -244,7 +244,7 @@ footer{
 }
 
 footer #logo{
-  color:rgb(18, 152, 242);
+  color: #fd8003	; 
 }
 .privacy-terms a{
   color: black;
@@ -267,8 +267,8 @@ footer #logo{
 .result-posts button{
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid  #fd8003	;
-  background-color:#fd8003	;
+  border: 1px solid rgb(18, 152, 242);
+  background-color:rgb(18, 152, 242);
   color: white;
 }
 .loading{
@@ -279,16 +279,16 @@ footer #logo{
 .result-story button{
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid  #fd8003	;
-  background-color:#fd8003	;
+  border: 1px solid rgb(18, 152, 242);
+  background-color:rgb(18, 152, 242);
   color: white;
 }
  
 #submit{
   padding: 15px;
   border-radius: 18px;
-  border: 1px solid  #fd8003	;
-  background-color:#fd8003	;
+  border: 1px solid rgb(18, 152, 242);
+  background-color:rgb(18, 152, 242);
   color: white;
   cursor: pointer;
 }
