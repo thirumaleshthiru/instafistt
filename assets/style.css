@@ -432,6 +432,7 @@ h2{
   .input input{
     width:320px;
     padding: 10px;
+    height: 45px;
   }
   #submit{
     width: 100px;
