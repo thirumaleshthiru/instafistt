@@ -323,7 +323,12 @@ h2{
   font-size: 18px;
 }
 
-
+.item{
+  border:1px solid rgb(254, 254, 254);
+  margin: 45px;
+  box-shadow: rgb(143, 143, 143) 0px 3px 10px;
+  margin-bottom: 50px;
+ }
 
 @media screen and (max-width:900px) {
   
@@ -351,10 +356,10 @@ h2{
     display: block;
   }
   .item{
-    padding: 30px;
+    padding: 10px;
     flex-direction: column;  
     justify-content: center;
-    gap:30px;
+    gap:20px;
 
   }
   .item2{
@@ -429,7 +434,7 @@ h2{
   }
 
   .image{
-    width: 310px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -437,7 +442,9 @@ h2{
 
   }
   .image img{
-    width: 290px;
+   width: 290px;
+   align-self: center;
+   margin-left: -23px;
   }
  
   .input, .result{
