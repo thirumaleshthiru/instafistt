@@ -328,7 +328,7 @@ h2{
   margin: 45px;
   box-shadow: rgb(143, 143, 143) 0px 3px 10px;
   margin-bottom: 50px;
- }
+  }
 
 @media screen and (max-width:900px) {
   
@@ -439,12 +439,11 @@ h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
   }
   .image img{
-   width: 290px;
+   width: 250px;
    align-self: center;
-   margin-left: -23px;
+   margin-left: -20%;
   }
  
   .input, .result{
