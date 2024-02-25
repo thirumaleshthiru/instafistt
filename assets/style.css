@@ -14,6 +14,7 @@ body {
     font-family: "Montserrat", sans-serif;
      
   }
+  
   html {
     scroll-behavior: smooth;
   }
@@ -69,8 +70,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 70px;
-  margin: 30px 0px;
+  margin: 150px  0px;
+}
+
+.heading p{
+  width:300px;
+  text-wrap: wrap;
+  text-align: center;
 }
 
 
@@ -80,12 +86,19 @@ body {
   align-items: center;
   gap:50%;
   margin: 30px 0px;
+  justify-content: center;
 }
-
+.item p{
+  width: 300px;
+}
+.item h2{
+  width: 300px;
+}
 .image{
-  width: 360px;
-  height: 210px;
+  width:auto ;
+  height: auto;
   border-radius: 18px;
+
 }
 .image img{
   border-radius: 10px;
@@ -509,5 +522,26 @@ h2{
     height: 7vh;
   }
  
+  .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px  0px;
+  }
+  
+  .heading p{
+    width:250px;
+    text-wrap: wrap;
+    text-align: center;
+  }
+  
+  
+  .item p{
+    width: 200px;
+  }
+  .item h2{
+    width: 200px;
+  }
 }
 
