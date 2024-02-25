@@ -533,5 +533,11 @@ h2{
   .item h2{
     width: 210px;
   }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
