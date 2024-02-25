@@ -111,7 +111,7 @@ body {
 }
 
 #try{
-  background-color:rgb(18, 152, 242);
+  background-color:rgb(236, 80, 7);
   color: white;
   padding: 7px;
   width: 100px;
@@ -403,6 +403,7 @@ h2{
     height: 9vh;
     display: flex;
     justify-content: center;
+    transition:all 0.3s ease-in-out;
   }
   .nav-links{
     position: absolute;
@@ -416,14 +417,14 @@ h2{
     gap:15px;
     left:10%;
   }
-  nav > a{
+  nav a{
     transition: all 0.3s ease-in-out;
   }
-  nav > ul li{
+  nav ul li{
     transition: all 0.3s ease-in-out;
   }
 
-  nav  > li a{
+  nav   li a{
     transition: all 0.3s ease-in-out;
   }
 
